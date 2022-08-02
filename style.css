@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(240, 8%, 3%);
+  font-family: "Overpass";
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(hsl(213, 19%, 18%) -40%, hsl(216, 12%, 8%));
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px 20px 20px;
+  border-radius: 30px;
+}
+
+.star {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.star-img {
+  width: 14px;
+}
+
+.prompt {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 30px;
+  word-spacing: -0.1px;
+}
+
+.rating {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rating-num {
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.rating-num:not(.no-hover):hover {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+
+.rating-num:active {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.rating-num-active {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.submit-check {
+  color: #fff;
+  font-size: 8px;
+  visibility: hidden;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  border-radius: 100px;
+  font-size: 13px;
+  height: 40px;
+  letter-spacing: 1.2px;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank {
+  display: none;
+}
+
+.thank-img {
+  width: 114px;
+  margin: 25px auto;
+}
+
+.thank-flex {
+  align-items: center;
+}
+
+.thank-prompt {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.thank-feedback {
+  text-align: center;
+  line-height: 1.2rem;
+  width: 310px;
+  letter-spacing: -0.1px;
+}
+
+.rating-p {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 100px;
+  font-size: 12px;
+  width: 154px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.attribution {
+  color: #fff;
+}
