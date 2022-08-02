@@ -75,17 +75,17 @@ body {
 }
 
 .rating-num:not(.no-hover):hover {
-  background-color: hsl(216, 12%, 54%);
+  background-color: hsl(25, 97%, 53%);
   color: #fff;
 }
 
 .rating-num:active {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 54%);
   color: #fff;
 }
 
 .rating-num-active {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 54%);
   color: #fff;
 }
 
